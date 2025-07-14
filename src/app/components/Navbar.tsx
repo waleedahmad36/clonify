@@ -72,11 +72,11 @@ const Navbar = () => {
       >
         <a href="#home" className="text-yellow-400">Home</a>
         <a href="#about" className="text-white hover:text-yellow-400">About</a>
-        <a href="/features" className="text-white hover:text-yellow-400">Features</a>
-        <a href="/services" className="text-white hover:text-yellow-400">Services</a>
-        <a href="/pricing" className="text-white hover:text-yellow-400">Pricing</a>
-        <a href="/login" className="text-white hover:text-yellow-400">Dropdown</a>
-        <a href="/contact" className="text-white hover:text-yellow-400">Contact</a>
+        <a href="#features" className="text-white hover:text-yellow-400">Features</a>
+        <a href="#services" className="text-white hover:text-yellow-400">Services</a>
+        <a href="#pricing" className="text-white hover:text-yellow-400">Pricing</a>
+        <a href="#login" className="text-white hover:text-yellow-400">Dropdown</a>
+        <a href="#contact" className="text-white hover:text-yellow-400">Contact</a>
         <Link
           href="/dashboard"
           className="mt-4 bg-yellow-400 text-black py-2 px-4 rounded-lg font-bold text-center"
